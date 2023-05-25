@@ -1,0 +1,27 @@
+.custom-select {
+  &__value-container {
+    cursor: pointer;
+  }
+
+  &__indicators {
+    cursor: pointer;
+  }
+  &__option {
+    cursor: pointer;
+    &--is-focused {
+      background-color: #7a5cfa !important;
+    }
+    &--is-selected {
+      background-color: #7a5cfa !important;
+    }
+  }
+}
+
+.dropLabel {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+
+  color: #666666;
+}
